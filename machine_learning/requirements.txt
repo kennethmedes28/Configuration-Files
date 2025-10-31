@@ -1,0 +1,68 @@
+# Core ML libraries
+numpy
+pandas
+scikit-learn
+
+# Unsupervised learning & clustering
+hdbscan
+umap-learn
+kneed
+pyclustering
+
+# Imbalanced data handling
+imbalanced-learn
+
+# Time series forecasting
+statsmodels
+prophet
+sktime
+tslearn
+pmdarima
+
+# Data visualization
+matplotlib
+seaborn
+
+# Model evaluation and metrics
+xgboost
+lightgbm
+catboost
+optuna
+
+# Data preprocessing and validation
+scipy
+pyarrow
+openpyxl
+missingno
+pydantic
+
+# Jupyter environment
+jupyterlab
+ipython
+
+# Performance and profiling
+tqdm
+memory_profiler
+line_profiler
+
+# MLflow and experiment tracking
+mlflow
+
+# Database and I/O
+sqlalchemy           # ORM for SQL databases
+psycopg2-binary      # PostgreSQL driver
+pymysql              # MySQL driver
+duckdb               # Embedded analytics DB
+sqlite-utils         # SQLite helper tools
+pymongo              # MongoDB driver
+
+# Web Scraping
+requests
+beautifulsoup4
+lxml
+httpx
+fake-useragent
+
+# Fuzzy Matching
+fuzzywuzzy
+python-Levenshtein

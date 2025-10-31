@@ -1,0 +1,36 @@
+# Core data stack
+numpy
+pandas
+
+# Automated reporting
+pandas-profiling # Automated EDA reports dataprep # Data cleaning and profiling
+dataprep
+
+# Visualization
+matplotlib
+seaborn
+
+# Data wrangling & validation
+scipy
+pyarrow
+openpyxl
+statsmodels
+pingouin
+
+# Optional: interactive exploration
+jupyterlab
+ipython
+
+# Optional: performance & profiling
+tqdm
+memory_profiler
+
+# Database tools
+sqlalchemy           # ORM for SQL databases
+psycopg2-binary      # PostgreSQL driver
+pymysql              # MySQL driver
+duckdb               # Embedded analytics DB
+sqlite-utils         # SQLite helper tools
+
+# Others
+missingno

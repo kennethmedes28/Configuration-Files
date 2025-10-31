@@ -1,0 +1,17 @@
+{
+  "name": "ML Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8888,5000,8080],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.vscode-jupyter-cell-tags"
+  ],
+  "postCreateCommand": "pip install --upgrade pip"
+}

@@ -1,0 +1,5 @@
+docker build -f .devcontainer/Dockerfile -t data_analysis_app .
+#-f .devcontainer/Dockerfile points to the correct file
+#. sets the build context to your current folder, so ../requirements.txt works
+
+docker run -it --rm -p 8888:8888 data_analysis_app

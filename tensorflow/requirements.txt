@@ -1,0 +1,57 @@
+# Core ML Frameworks
+tensorflow-cpu==2.15.0
+keras
+tensorflow-addons
+tensorflow-hub
+tensorflow-model-optimization
+
+# Data Manipulation & Analysis
+numpy
+pandas
+scikit-learn
+scipy
+statsmodels
+
+# Big Data Processing
+pyarrow
+pyspark
+
+# Imbalanced Data Handling
+imbalanced-learn
+
+# NLP
+transformers
+datasets
+tokenizers
+
+# Computer Vision
+opencv-python
+Pillow
+KerasCV
+
+# Visualization
+matplotlib
+seaborn
+
+# Hyperparameter Optimization
+optuna
+
+# Jupyter Environment
+jupyterlab
+ipython
+
+# Performance & Profiling
+tqdm
+memory_profiler
+line_profiler
+
+# Database Management
+sqlalchemy
+psycopg2-binary
+pymysql
+duckdb
+sqlite-utils
+pymongo
+
+# Monitoring & Experiment Tracking
+mlflow
