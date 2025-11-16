@@ -1,0 +1,11 @@
+# To Study Containers
+
+nginx
+redis
+
+# To study deployment
+Build → HTML/CSS or framework.
+Host → GitHub Pages, Netlify, or Docker/Nginx.
+Domain → Register and connect.
+Enhance → SSL, analytics, automation.
+
