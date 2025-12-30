@@ -29,7 +29,7 @@ Configuration-Files/
 ├── n8n/                       # Workflow automation configurations
 └── DATASETS/                  # Raw and processed datasets for analysis
     ├── CSV/                   # Netflix, Superstore, and other datasets
-└──Notebook Files/             # Jupyter notebooks for exploration
+└── Notebook Files/            # Jupyter notebooks for exploration
 ```
 
 ## 🛠️ Tech Stack
@@ -57,15 +57,18 @@ Configuration-Files/
 
 ## 🚀 Key Projects & Configurations
 
-### 1. Machine Learning Models
-- PyTorch and TensorFlow implementations
+### 1. Data Analysis
+- Data Visualization
+- Data Mining
+- Hypothesis Testing & Experimentation
+
+### 2. Machine Learning Models
+- Predictions using datasets after Data Analysis
 - Model training, evaluation, and optimization
 - Hyperparameter tuning and experiment tracking
 
-### 2. Data Analysis
-- Netflix titles dataset analysis
-- E-commerce (Superstore) data exploration
-- Statistical analysis and feature engineering
+### 3. Deep Learning Models
+- PyTorch and TensorFlow implementations
 
 ### 3. Production Deployment
 - Containerized applications with Docker
@@ -100,7 +103,7 @@ Configuration-Files/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/krukkruk28/Configuration-Files.git
    cd Configuration-Files
    ```
 
