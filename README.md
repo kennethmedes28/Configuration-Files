@@ -43,7 +43,7 @@ Configuration-Files/
 - **Containerization**: Docker, Docker Compose
 - **Orchestration**: Kubernetes
 - **CI/CD**: Jenkins, automated testing pipelines
-- **Monitoring**: Prometheus & Grafana custom dashboards
+- **Monitoring**: Prometheus & Grafana for monitoring of models
 
 ### Databases
 - **Relational**: PostgreSQL
@@ -129,7 +129,7 @@ Configuration-Files/
    docker-compose up -d
    ```
 
-5. **Monitor with Prometheus**
+5. **Monitor with Prometheus & Grafana**
    ```bash
    # Prometheus runs on http://localhost:9090
    docker-compose -f monitoring/docker-compose.yml up -d
