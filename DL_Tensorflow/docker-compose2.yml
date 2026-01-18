@@ -1,0 +1,19 @@
+services:
+  tf_gpu:
+    image: tensorflow/tensorflow:2.20.0-gpu
+    container_name: tf_gpu
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: bash
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: "no"
