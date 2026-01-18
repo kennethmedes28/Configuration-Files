@@ -1,0 +1,126 @@
+# Core Deep Learning Frameworks
+
+# TensorFlow (GPU build will use CUDA/cuDNN if available)
+tensorflow
+tensorflow-addons
+tensorflow-hub
+tensorflow-model-optimization
+
+# PyTorch (GPU build includes CUDA/cuDNN support)
+torch
+torchvision
+torchaudio
+torchtext
+torchmetrics
+
+# GPU Distributed Training
+accelerate
+
+# Data Manipulation & Analysis
+numpy
+pandas
+scikit-learn
+scipy
+statsmodels
+
+# Big Data Processing
+pyarrow
+pyspark
+
+# Cloud Services (AWS, Azure, GCP) - Data Science & ML
+# AWS
+boto3
+s3fs
+sagemaker
+aws-cdk-lib
+
+# Azure
+azure-storage-blob
+azure-identity
+azure-cosmos
+azure-ai-textanalytics
+azure-ml
+azure-synapse-spark
+
+# Imbalanced Data Handling
+imbalanced-learn
+
+# Natural Language Processing
+transformers
+datasets
+tokenizers
+
+# Computer Vision
+opencv-python
+Pillow
+KerasCV
+
+# Visualization
+matplotlib
+seaborn
+
+# Hyperparameter Optimization
+optuna
+
+# Jupyter Environment
+jupyterlab
+ipython
+
+# Performance & Profiling
+tqdm
+memory_profiler
+line_profiler
+
+# Database Management
+sqlalchemy
+psycopg2-binary
+pymysql
+duckdb
+sqlite-utils
+pymongo
+
+# Monitoring & Experiment Tracking
+mlflow
+wandb
+
+# Model Interpretation & Explainability
+shap
+lime
+
+# Time Series Analysis
+prophet
+pyts
+
+# Reinforcement Learning
+gym
+stable-baselines3
+ray
+
+# Image Processing & Augmentation
+albumentations
+imgaug
+scikit-image
+
+# Object Detection & Segmentation
+ultralytics
+
+# Audio Processing
+librosa
+pydub
+
+# Feature Engineering
+featuretools
+category-encoders
+pandas-profiling
+
+# Testing & Validation
+pytest
+hypothesis
+
+# Configuration Management
+python-dotenv
+pyyaml
+
+# Utilities
+requests
+python-dateutil

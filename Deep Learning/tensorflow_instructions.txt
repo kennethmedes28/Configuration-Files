@@ -1,0 +1,5 @@
+docker build -t deep-learning_image .
+
+docker build (--no-cache # Optional) -t deep-learning_image . --progress=plain
+
+docker run -it --gpus all deep-learning_image
