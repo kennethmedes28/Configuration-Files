@@ -15,7 +15,7 @@ services:
     volumes:
       - n8n_data:/home/node/.n8n
     restart: unless-stopped
-    user: "1000:1000"  # Ensures non-root execution if UID 1000 exists
+    user: "1000:1000"
 
 volumes:
   n8n_data:

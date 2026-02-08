@@ -7,6 +7,10 @@ docker run --rm -p 8888:8888 \
   -v "/home/kenneth/my_projects:/workspace" \
   data_analysis_app
 
+docker run --rm -p 8888:8888 \
+  -v "/home/kenneth28/my_projects/PROJECTS:/workspace" \
+  data_analysis_app
+
 # -i Interactive: Keeps STDIN open so you can interact with the container
 # -t TTY: Allocates a pseudo-terminal for a better shell experience
 # --rm Remove container after exit: Automatically deletes the container when it stops
