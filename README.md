@@ -85,12 +85,6 @@ Configuration-Files/
 - Docker image building and pushing
 - Deployment automation
 
-## 📊 Datasets
-
-- **Netflix Titles**: Movie/TV show metadata and categorization analysis
-- **Superstore Orders**: E-commerce sales and customer behavior analysis
-- Custom datasets for ML model training and evaluation
-
 ## 🔧 Quick Start
 
 ### Prerequisites
