@@ -4,7 +4,7 @@ FROM n8nio/n8n:latest
 # USER node
 
 # Optional: copy custom workflows or config
-COPY ./workflows /home/node/.n8n
+COPY ./data/workflows /home/node/.n8n
 
 # Expose port
 EXPOSE 5678
