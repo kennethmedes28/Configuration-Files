@@ -1,0 +1,8 @@
+docker run --gpus all -p 8888:8888 \
+  -v "/home/kenneth28/my_projects/Configuration-Files/Deep Learning/Pytorch/Notebook_Files:/workspace" \
+  -v hf_cache:/workspace/hf_cache \
+  torch:runtime
+
+docker build -f Torch.Dockerfile -t torch:runtime .
+
+docker compose up --build

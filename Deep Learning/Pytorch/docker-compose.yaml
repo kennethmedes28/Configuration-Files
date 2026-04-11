@@ -1,0 +1,31 @@
+services:
+  torch:
+    build:
+      context: .
+      dockerfile: Torch.Dockerfile
+    image: torch:runtime
+    container_name: torch-runtime_nb_cud12.1
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - "/home/kenneth28/my_projects/Configuration-Files/Deep Learning/Pytorch/Notebook_Files:/workspace"
+      - hf_cache:/workspace/hf_cache
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+
+    restart: unless-stopped
+
+volumes:
+  hf_cache:

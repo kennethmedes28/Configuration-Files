@@ -1,0 +1,45 @@
+# Torch Libraries
+torchmetrics
+torchaudio
+torchvision
+
+# Data Manipulation & Analysis
+numpy
+pandas
+
+# Natural Language Processing
+transformers
+datasets
+tokenizers
+langchain
+accelerate
+
+# Visualization
+matplotlib
+seaborn
+
+# Jupyter Environment
+jupyterlab
+ipython
+
+# Performance & Profiling
+tqdm
+memory_profiler
+line_profiler
+
+# Monitoring & Experiment Tracking
+mlflow
+
+# Model Interpretation & Explainability
+shap
+lime
+
+# Configuration Management
+python-dotenv
+pyyaml
+
+# Open AI
+openai
+
+# Token-Counter
+tiktoken
