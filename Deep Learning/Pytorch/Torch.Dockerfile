@@ -1,18 +1,24 @@
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
-    HF_HOME=/workspace/hf_cache
+    HF_HOME=/workspace/hf_cache \
+    PATH="/opt/venv/bin:$PATH"
 
 WORKDIR /workspace
 
-# System deps (minimal + safe)
+# System deps + venv + pip upgrade in one layer
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     curl \
     ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
+    python3-venv \
+&& rm -rf /var/lib/apt/lists/* \
+&& python3 -m venv /opt/venv \
+&& /opt/venv/bin/pip install --upgrade pip
+
+RUN python3 -m venv /opt/venv
 
 # Upgrade pip (no cache already handled by ENV)
 RUN pip install --upgrade pip

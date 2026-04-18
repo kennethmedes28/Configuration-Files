@@ -1,0 +1,11 @@
+docker-compose up
+
+
+-Use Case	                -Benefit	                        -Example Scenario
+Web Server	                Fast static file serving	        Hosting HTML/CSS/JS
+Reverse Proxy	            Centralized routing                 Flask backend + Nginx frontend
+Load Balancer	            Scalability & redundancy	        Multiple Flask containers
+Caching	                    Faster responses, reduced load	    API responses, images
+API Gateway	                Unified entry point, security	    Microservices architecture
+SSL Termination	            Secure HTTPS traffic	            Protecting user logins
+Mail Proxy	                Email traffic management	        Enterprise mail servers
